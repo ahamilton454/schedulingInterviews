@@ -11,8 +11,7 @@ example input and output is below in the readme.  Copy paste the input into
 your terminal
 <br />
 The time complexity for the algorithm is O(m) where m is the number of pairs 
-of candidate and recruiter who could interview the candidate.
-<br />
+of candidate and recruiter who could interview the candidate.<br />
 
 **Input (No Case)**<br />
 5 5<br />
