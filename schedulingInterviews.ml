@@ -2,21 +2,6 @@
 let get_line _ =
   read_line () |> String.split_on_char ' ' |> List.map int_of_string
 
-(* Prints the list order in reverse because they are stored in
-   reverse *)
-let print_adj_list arr =
-  arr
-  |> Array.iter (fun lst ->
-         print_endline
-           (List.fold_left
-              (fun acc x -> string_of_int x ^ " " ^ acc)
-              "" lst))
-
-let print_capacities_list arr =
-  arr
-  |> Array.fold_left (fun acc x -> acc ^ string_of_int x ^ " ") ""
-  |> print_endline
-
 (* Read First line and store n & k *)
 let line_one_data : int list = get_line ()
 
