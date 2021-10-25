@@ -11,18 +11,18 @@ example input and output is below in the readme.  Copy paste the input into
 your terminal
 
 **Input (No Case)**
-5 5
-5 6
-5 7 8 9
-5 7 9
-5 7 8 9
-5 6 9
-0 1 3 0 0
-6 7 7 7
+5 5<br />
+5 6<br />
+5 7 8 9<br />
+5 7 9<br />
+5 7 8 9<br />
+5 6 9<br />
+0 1 3 0 0<br />
+6 7 7 7<br />
 
 **Output (No Case)**
-No
-1 1 0 0 1
+No<br />
+1 1 0 0 1<br />
 
 **Input Explanation**
 You have n job candidates and k<=n recruiters.  The first line of input is n 
@@ -31,22 +31,22 @@ k=5 (we have 5 job interviewers).
 
 There are restrictions on which candidates the recruiters can interview. That
 is denoted by lines 2 through (2+n).  In the above examples it is these lines:
-5 6
-5 7 8 9
-5 7 9
-5 7 8 9
-5 6 9
+5 6<br />
+5 7 8 9<br />
+5 7 9<br />
+5 7 8 9<br />
+5 6 9<br />
 Candidate 1 can be interviewed by recruiter 5 & 6. Candidate 2 can be
 interviewed by 5, 7, 8, & 9, etc.
 
 The second to last line denotes the total number of candidates a recruiter can
-interview (their capacity):
-0 1 3 0 0
+interview (their capacity):<br />
+0 1 3 0 0<br />
 Recruiter 5 can interview 0 people.  Recruiter 6 can interview 1 person.
 
 The final line denotes the current matching which is always 1 fails to match 
-the (n-1) candidate:
-6 7 7 7
+the (n-1) candidate:<br />
+6 7 7 7<br />
 Candidate 1 is interviewed by recuiter 6. Candidate 2 is interviewed by 
 recruiter 7.  Candidate (n+k) never has an interviewer.
 
@@ -58,15 +58,15 @@ a list of 1s and 0s denoting which recuiters capacities can be increase in order
 to allow a full assignment.  Below is a Yes case example.
 
 **Input (Yes Case)**
-5 5
-5 7 8
-5 8
-7 8 9
-5 6 8 9
-5 6 7 8
-0 1 0 2 2
-8 8 9 9
+5 5<br />
+5 7 8<br />
+5 8<br />
+7 8 9<br />
+5 6 8 9<br />
+5 6 7 8<br />
+0 1 0 2 2<br />
+8 8 9 9<br />
 
 **Output (Yes Case)**
-Yes
-8 8 9 9 6
+Yes<br />
+8 8 9 9 6<br />
