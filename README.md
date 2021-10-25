@@ -10,7 +10,7 @@ installed
 example input and output is below in the readme.  Copy paste the input into
 your terminal
 
-**Input (No Case)**
+**Input (No Case)**<br />
 5 5<br />
 5 6<br />
 5 7 8 9<br />
@@ -20,17 +20,17 @@ your terminal
 0 1 3 0 0<br />
 6 7 7 7<br />
 
-**Output (No Case)**
+**Output (No Case)**<br />
 No<br />
 1 1 0 0 1<br />
 
-**Input Explanation**
+##Input Explanation##<br />
 You have n job candidates and k<=n recruiters.  The first line of input is n 
 and k such that in the above example n=5 (we have 5 job candidates) and
 k=5 (we have 5 job interviewers).
 
 There are restrictions on which candidates the recruiters can interview. That
-is denoted by lines 2 through (2+n).  In the above examples it is these lines:
+is denoted by lines 2 through (2+n).  In the above examples it is these lines:<br />
 5 6<br />
 5 7 8 9<br />
 5 7 9<br />
@@ -50,14 +50,14 @@ the (n-1) candidate:<br />
 Candidate 1 is interviewed by recuiter 6. Candidate 2 is interviewed by 
 recruiter 7.  Candidate (n+k) never has an interviewer.
 
-**Output Explanation**
+##Output Explanation##<br />
 If there exists a full assignment of recruiters to candidates, the first line
 will output "Yes" and the second line with output the matching.  If no possible
 assignment exists, the first line with output "No" and the second line will be
 a list of 1s and 0s denoting which recuiters capacities can be increase in order
 to allow a full assignment.  Below is a Yes case example.
 
-**Input (Yes Case)**
+**Input (Yes Case)**<br />
 5 5<br />
 5 7 8<br />
 5 8<br />
@@ -67,6 +67,6 @@ to allow a full assignment.  Below is a Yes case example.
 0 1 0 2 2<br />
 8 8 9 9<br />
 
-**Output (Yes Case)**
+**Output (Yes Case)**<br />
 Yes<br />
 8 8 9 9 6<br />
