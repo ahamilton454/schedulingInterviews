@@ -24,7 +24,7 @@ your terminal
 No<br />
 1 1 0 0 1<br />
 
-##Input Explanation##<br />
+## Input Explanation ##<br />
 You have n job candidates and k<=n recruiters.  The first line of input is n 
 and k such that in the above example n=5 (we have 5 job candidates) and
 k=5 (we have 5 job interviewers).
@@ -50,7 +50,7 @@ the (n-1) candidate:<br />
 Candidate 1 is interviewed by recuiter 6. Candidate 2 is interviewed by 
 recruiter 7.  Candidate (n+k) never has an interviewer.
 
-##Output Explanation##<br />
+## Output Explanation ##<br />
 If there exists a full assignment of recruiters to candidates, the first line
 will output "Yes" and the second line with output the matching.  If no possible
 assignment exists, the first line with output "No" and the second line will be
